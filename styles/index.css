@@ -5,10 +5,90 @@ body {
 header {
     display: flex;
 }
-.navbar {
-    justify-content: flex-end;
-    float: left;
+
+/*header*/
+
+.header {
+    display: inline-block;
+    height: 78px;
     width: 100%;
-    position: relative;
-    z-index: 120;
+    padding: 10px;
+    margin: 20px;
+    background-color: white;
 }
+
+.logo {
+    justify-content: flex-start;
+    margin-left: 144px;
+    margin-top: 22px;
+}
+
+.navbar {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+/*hero section*/
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.hero-content {
+    justify-content: flex-start;
+    text-align: right;
+    align-items: flex-start;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-btn {
+        width: 152px;
+        height: 62px;
+        margin-top: 50px;
+        margin-left: 200px;
+        color: #FFFFFF;
+        background-color: #FF9900;
+        border-radius: 6px;
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+        font-style: normal;
+        line-height: 32px;
+        border: none;
+}
+
+/*features section*/ 
+
+.features {
+    justify-content: center;
+}
+
+.feature-item {
+    justify-content: center;
+} 
+
+/*user categories section*/
+
+.user-categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+
+/*footer*/
