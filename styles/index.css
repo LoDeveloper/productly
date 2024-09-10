@@ -1,0 +1,14 @@
+body {
+    background-color: white;
+}
+
+header {
+    display: flex;
+}
+.navbar {
+    justify-content: flex-end;
+    float: left;
+    width: 100%;
+    position: relative;
+    z-index: 120;
+}
