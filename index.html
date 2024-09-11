@@ -3,20 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Productly</title>
+    <link rel="stylesheet" href="reset.css" media="screen">
     <link rel="stylesheet" type="text/css" href="styles/index.css">
 </head>
 <body>
-    <header class="header">
+    <!-- Header -->
+    <header>
         <nav class="topnav">
             <div class="logo">
                 <img src="images/Logo.jpg" alt="logo">
             </div>
-            <ul>
-                <li><a href="#product"></a>Product</li>
-                <li><a href="#customer"></a>Customers</li>
-                <li><a href="#pricing"></a>Pricing</li>
-                <li><a href="#resources"></a>Resources</li>
+            <ul class="nav-links">
+                <li><a href="#product">Product</a></li>
+                <li><a href="#customer">Customers</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#resources">Resources</a></li>
             </ul>
             <div class="auth-buttons">
                 <button class="sign-in">Sign In</button>
@@ -24,21 +29,26 @@
             </div>
         </nav>
     </header>
-   <main>
-<!--hero section-->
-      <section class="hero">
-         <div class="hero-content">
-            <h1>The Design Thinking superpowers</h1>
-            <p>Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
-            <button class="main-btn">Get started</button>
-            <button class="video-btn">Watch the video</button>
+   
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>The Design Thinking Superpowers</h1>
+                <p>Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
+                <div class="hero-buttons">
+                    <button class="main-btn">Get started</button>
+                    <button class="video-btn">Watch the video</button>
+                </div>
+            </div>
             <div class="hero-image">
                 <img src="images/hero-image.jpg" alt="people-jumping">
             </div>
-         </div>
-      </section>
-<!--features section-->   
-      <section class="features">
+        </section>
+
+        <!-- Features Section -->   
+        <section class="features">
             <h2>We design tools to unveil your superpowers</h2>
             <div class="feature-list">
                 <div class="feature-item">
@@ -49,112 +59,99 @@
                 <div class="feature-item">
                     <img src="images/icon2.jpg" alt="icon">
                     <h3>Design surveys</h3>
-                    <p>Sports betting, lottery and bingo playing for the fun</p>
+                    <p>Sports betting, lottery and bingo playing for the fun.</p>
                 </div>
-                <div class="feature-item"></div>
+                <div class="feature-item">
                     <img src="images/icon3.png" alt="icon">
                     <h3>Preference tests</h3>
                     <p>The Myspace page defines the individual.</p>
                 </div>
-                <div class="feature-item"></div>
-                    <img src="images/icon 4.png" alt="icon">
+                <div class="feature-item">
+                    <img src="images/icon4.png" alt="icon">
                     <h3>Five second tests</h3>
-                    <p>Personal choices and the overall personality of the person. </p>
+                    <p>Personal choices and the overall personality of the person.</p>
                 </div>
-                <button class="main-btn">SIGN UP NOW</button>
             </div>
-      </section>
-<!-- User Categories Section -->
-      <section class="user-categories">
-          <div class="category">
-              <p>Effortless Validation for</p>
-            <h2>Design Professionals</h2>
-              <p>The Myspace page defines the individual, his or her characteristics, traits, 
-                personal choices and the overall personality of the person. </p>
-            <p><b>Accessory makers</b></p>
-              <p>While most people enjoy casino gambling, sports betting, 
-                lottery and bingo playing for the fun</p>
-            <p><b>Alterationists</b></p>
-              <p>If you are looking for a new way to promote your business that won’t 
-                cost you more money, </p>
-            <p><b>Custom Design designers</b></p>
-              <p>If you are looking for a new way to promote your 
-                business that won’t cost you more money, </p>
-          </div>
-          <div class="category-image">
-            <img src="images/category-image.png" alt="designer-drawing">
-          </div>
+            <button class="main-btn btn--feature">SIGN UP NOW</button>
+        </section>
 
-      </section>
-<!-- User products Section -->
-      <section class="product">
-          <div class="product-image">
-              <img src="images/product-image.png" alt="designer-with-computer">
-          </div>
-          <div class="product-text">
-               <p>Easier decision making for</p>
-            <h2>Product Managers</h2>
-               <p>The Myspace page defines the individual, his or her characteristics, traits,
-             personal choices and the overall personality of the person. </p>
-          </div>
-          <div class="product-list">
-            <img src="images/ticket.png" alt="ticket">
-            <p>Never worry about overpaying for your energy again. </p>
-          </div>
-          <div class="product-list"></div>
-            <img src="images/ticket.png" alt="ticket">
-            <p>We will only switch you to energy companies 
-                that we trust and will treat you right</p>
-          </div>
-          <div class="product-list"></div>
-            <img src="images/ticket.png" alt="ticket">
-            <p>We track the markets daily and know where the savings are.</p>
-          </div>
-      </section>
+        <!-- User Categories Section -->
         <section class="user-categories">
-            <div class="category">
-                <p>Optimisation for</p>
-              <h2>Marketers</h2>
-                <p>Few would argue that, despite the advancements of feminism over the past three decades,
-                 women still face a double standard when it comes to their behavior. </p>
-              <p><b>Accessory makers</b></p>
-                <p>While most people enjoy casino gambling, sports betting, 
-                  lottery and bingo playing for the fun</p>
-              <p><b>Alterationists</b></p>
-                <p>If you are looking for a new way to promote your business that won’t 
-                  cost you more money, </p>
-              <p><b>Custom Design designers</b></p>
-                <p>If you are looking for a new way to promote your 
-                  business that won’t cost you more money, </p>
+            <div class="category-list">
+                <h2>Design Professionals</h2>
+                   <p>The Myspace page defines the individual, his or her characteristics, traits, personal choices, and the overall personality of the person.</p>
+                <p><b>Accessory makers</b></p>
+                   <p>While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
+                <p><b>Alterationists</b></p>
+                   <p>If you are looking for a new way to promote your business that won’t cost you more money, </p>
+                    <p><b>Custom Design designers</b></p>
+                <p>If you are looking for a new way to promote your business that won’t cost you more money, </p>
+                </ul>
             </div>
             <div class="category-image">
-              <img src="images/marketers-imagen.png" alt="designer-drawing">
+                <img src="images/category-image.png" alt="designer-drawing">
             </div>
-      </section>
+        </section>
 
-   </main>
+        <!-- Product Section -->
+        <section class="product">
+            <div class="product-image">
+                <img src="images/product-image.png" alt="designer-with-computer">
+            </div>
+            <div class="product-text">
+                <h2>Product Managers</h2>
+                <p>The Myspace page defines the individual, his or her characteristics, traits, personal choices, and the overall personality of the person.</p>
+                <ul class="product-list">
+                    <li><img src="images/ticket.png" alt="ticket"> Never worry about overpaying for your energy again.</li>
+                    <li><img src="images/ticket.png" alt="ticket"> We will only switch you to energy companies that we trust.</li>
+                    <li><img src="images/ticket.png" alt="ticket"> We track the markets daily and know where the savings are.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
 
-<!--footer section-->
+    <section class="user-categories">
+        <div class="category-list">
+            <p>Optimisation for</p>
+          <h2>Marketers</h2>
+            <p>Few would argue that, despite the advancements of feminism over the past three decades,
+             women still face a double standard when it comes to their behavior. </p>
+          <p><b>Accessory makers</b></p>
+            <p>While most people enjoy casino gambling, sports betting,
+              lottery and bingo playing for the fun</p>
+          <p><b>Alterationists</b></p>
+            <p>If you are looking for a new way to promote your business that won’t
+              cost you more money, </p>
+          <p><b>Custom Design designers</b></p>
+            <p>If you are looking for a new way to promote your
+              business that won’t cost you more money, </p>
+        </div>
+        <div class="category-image">
+          <img src="images/marketers-imagen.png" alt="designer-drawing">
+        </div>
+    </section>
 
+    <!-- Footer -->
     <footer>
+        <div class="footer-logo">
+            <img src="images/Logo.jpg" alt="logo">
+        </div>
         <div class="footer-content">
-            <div class="logo"></div>
-                <img src="images/Logo.jpg" alt="logo">
-            </div>
-            <ul>
+            <ul class="ul-footer">
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">FAQ</a></li>
             </ul>
-            <ul>
+            <ul class="ul-footer">
                 <li><a href="#">Disclaimer</a></li>
                 <li><a href="#">Financing</a></li>
                 <li><a href="#">Privacy Policy</a></li>
                 <li><a href="#">Terms of Service</a></li>
             </ul>
             <button class="sign-up-footer">Sign up Now</button>
-  
+        <!-- I didn´t know how to add the text bar below the logo, if there is an specific property or is just a rectangle shape-->
+        </div>
     </footer>
 </body>
 </html>
